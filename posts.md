@@ -2,8 +2,7 @@
 layout: page
 title: "Posts"
 permalink: /posts/
-pagination:
-  enabled: true
+paginate: 10
 ---
 
 ## Posts
@@ -18,6 +17,7 @@ pagination:
 </ul>
 
 {% if paginator.next_page %}
+
   <p>
     <a class="button" href="{{ paginator.next_page_path | relative_url }}">Ver mais</a>
   </p>
