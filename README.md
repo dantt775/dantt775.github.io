@@ -1,3 +1,2 @@
-### Teste readme pagina inicial
-
-#### Essa e pagina inicial
+# jekyll-theme-console demo
+This is a demo site for the jekyll-theme-console theme.

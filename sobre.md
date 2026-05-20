@@ -1,6 +1,6 @@
 ---
+title: "/sobre"
 layout: page
-title: "sobre"
 permalink: /sobre
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Primeiro Post"
+title: "Segundo Post"
 date: 2026-05-18 21:42:00 -0000
-tags: offtopic
+categories: offtopic
 permalink: /primeiro-post/
 ---
 
