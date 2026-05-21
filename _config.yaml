@@ -13,4 +13,6 @@ header_pages:
   - posts.md
 
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-markdown: kramdown
+
+listen_for_clients_preferred_style: true
+
