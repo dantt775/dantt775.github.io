@@ -56,3 +56,7 @@ sequenceDiagram
 
 ---
 Para mais detalhes sobre a sintaxe, visite a [Documentação oficial de Escrita do GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+
+
+[Voltar](/posts)
