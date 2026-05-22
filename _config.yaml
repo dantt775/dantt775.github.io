@@ -1,5 +1,5 @@
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+url: "https://dantt775.github.io/"
+baseurl: ""
 lang: pt-BR
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
@@ -12,7 +12,7 @@ header_pages:
   - sobre.md
   - posts.md
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: '<a href="https://www.linkedin.com/in/daniel-marchi-silva-17593816a/">Linkedin</a>'
 
 listen_for_clients_preferred_style: true
 
