@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "Posts"
+title: "/posts"
 permalink: /posts/
 ---
 
 ## Posts
 
+{% assign posts_sorted = site.posts | sort: "date" | reverse %}
+
 <ul id="posts-list">
-  {% for post in site.posts %}
+  {% for post in posts_sorted %}
     <li class="post-item" style="{% unless forloop.index0 < 10 %}display:none;{% endunless %}">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <span> — {{ post.date | date: "%d %b %Y" }}</span>
@@ -15,7 +17,7 @@ permalink: /posts/
   {% endfor %}
 </ul>
 
-{% if site.posts.size > 10 %}
+{% if posts_sorted.size > 10 %}
 
   <p>
     <button id="load-more">Ver mais</button>
