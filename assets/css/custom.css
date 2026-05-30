@@ -1,6 +1,9 @@
+/* 
+R
+*/
 body {
   font-size: 16px !important;
-  background-color: #1e1e1e !important;
+  /* background-color: #1e1e1e !important; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,7 +12,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 pre {
-    background-color: #0D0C0C !important;
+    /* background-color: #0D0C0C !important; */
     border-radius: 10px;
     padding: 10px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px !important;
+  /* color: #DBDBDB !important; */
 }
