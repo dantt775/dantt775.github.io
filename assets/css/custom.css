@@ -1,24 +1,46 @@
-/* 
-R
-*/
+/* 1. Estilos globais neutros (fontes e tamanhos que não mudam) */
 body {
-  font-size: 16px !important;
-  /* background-color: #1e1e1e !important; */
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
-  font-size: 20px !important;
-}
-
-pre {
-    /* background-color: #0D0C0C !important; */
-    border-radius: 10px;
-    padding: 10px;
+  font-size: 20px;
 }
 
 p {
   line-height: 1.6;
-  font-size: 16px !important;
-  /* color: #DBDBDB !important; */
+  font-size: 16px;
+}
+
+/* 2. Tema Claro (Padrão) */
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+p {
+  color: #333333;
+}
+
+pre {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* 3. Tema Escuro (Só ativa se o Chrome/OS estiver em modo escuro) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #DBDBDB;
+  }
+
+  p {
+    color: #DBDBDB;
+  }
+
+  pre {
+    background-color: #0D0C0C;
+  }
 }
